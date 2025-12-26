@@ -124,6 +124,12 @@ source venv/bin/activate   # On Windows: venv\Scripts\activate
 
 # Install dependencies
 pip install -r requirements.txt
+(streamlit,
+langchain
+langchain-core
+langchain-ollama)
+
+Install Ollama from https://ollama.com
 
 # Pull the Phi-3 model
 ollama pull phi3
